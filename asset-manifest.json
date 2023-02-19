@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smart-brain-face-recognition/static/css/main.58e31da6.css",
+    "main.js": "/smart-brain-face-recognition/static/js/main.c5263c72.js",
+    "index.html": "/smart-brain-face-recognition/index.html",
+    "main.58e31da6.css.map": "/smart-brain-face-recognition/static/css/main.58e31da6.css.map",
+    "main.c5263c72.js.map": "/smart-brain-face-recognition/static/js/main.c5263c72.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58e31da6.css",
+    "static/js/main.c5263c72.js"
+  ]
+}
