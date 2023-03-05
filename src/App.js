@@ -63,7 +63,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-      fetch('https://spring-paper-2518.fly.dev/imageurl', {
+      fetch('https://still-bush-6035.fly.dev/imageurl', {
         method: 'post',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
@@ -73,7 +73,7 @@ class App extends Component {
       .then(response => response.json())
       .then(response => {
         if (response) {
-          fetch('https://spring-paper-2518.fly.dev/image', {
+          fetch('https://still-bush-6035.fly.dev/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
@@ -82,7 +82,7 @@ class App extends Component {
           })
             .then(response => response.json())
             .then(count => {
-              this.setState(Object.assign(this.state.user, { entries: count}))
+              this.setState(Object.assign(this.state.user, {entries: count}))
             })
             .catch(console.log)
         }

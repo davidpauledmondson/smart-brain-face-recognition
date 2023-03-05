@@ -21,7 +21,7 @@ class Register extends React.Component {
   }
 
   onSubmitSignIn = () => {
-    fetch('https://spring-paper-2518.fly.dev/register', {
+    fetch('https://still-bush-6035.fly.dev/register', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
