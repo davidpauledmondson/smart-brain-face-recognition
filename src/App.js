@@ -40,6 +40,20 @@ class App extends Component {
     }})
   }
 
+  componentDidMount() {
+    document.addEventListener('keydown', this.handleEnterPressToSubmitPic);
+  }
+
+  componentWillUnmount() {
+    document.removeEventListener('keydown', this.handleEnterPressToSubmitPic);
+  }
+
+  handleEnterPressToSubmitPic = (event) => {
+    if (event.key === 'Enter' && this.state.input !== '') {
+      this.onButtonSubmit();
+    }
+  };
+  
   calculateFaceLocation = (data) => {
     const clarifaiFace = data.outputs[0].data.regions[0].region_info.bounding_box;
     const image = document.getElementById('inputimage');
