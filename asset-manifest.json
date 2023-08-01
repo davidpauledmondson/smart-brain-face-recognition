@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/smart-brain-face-recognition/static/css/main.0171ed68.css",
-    "main.js": "/smart-brain-face-recognition/static/js/main.6ac32f20.js",
+    "main.js": "/smart-brain-face-recognition/static/js/main.ee89b743.js",
     "index.html": "/smart-brain-face-recognition/index.html",
     "main.0171ed68.css.map": "/smart-brain-face-recognition/static/css/main.0171ed68.css.map",
-    "main.6ac32f20.js.map": "/smart-brain-face-recognition/static/js/main.6ac32f20.js.map"
+    "main.ee89b743.js.map": "/smart-brain-face-recognition/static/js/main.ee89b743.js.map"
   },
   "entrypoints": [
     "static/css/main.0171ed68.css",
-    "static/js/main.6ac32f20.js"
+    "static/js/main.ee89b743.js"
   ]
 }
